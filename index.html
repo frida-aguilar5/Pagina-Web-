@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Tomatontos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <header class="site-header">
+    <nav class="site-nav">
+        <button id="contacto">Contacto</button>
+        <button id="plantacion">Plantación</button>
+    </nav>
+    <div class="header-content">
+        <img src="images/Toma_tontos_logo.png" alt="Logo Tomatontos" class="logo-header">
+        
+        <div class="header-text-container">
+            <h1>Tomatontos</h1>
+            <p class="subtitle">Monitoreo y análisis de precios del tomate</p>
+        </div>
+    </div>
+</header>
+
+    <main class="dashboard-container">
+        <article class="report-section">
+            <header class="report-header">
+                <h2 class="report-title">El precio del tomate rojo rompe récord en 2026</h2>
+                <p class="report-date">Actualizado: Junio 2026</p>
+            </header>
+
+            <div class="report-content">
+                <p>Durante las últimas semanas, el precio del tomate saladette ha experimentado una volatilidad inusual en las principales centrales de abasto del país. Factores como las sequías prolongadas en el norte de México y el aumento en los costos logísticos han presionado el precio al alza, afectando directamente al consumidor final y a los márgenes de comercialización de los distribuidores locales.</p>
+                
+                <p>El comportamiento actual del mercado refleja un desbalance crítico entre la oferta y la demanda. Las regiones productoras clave han reportado una disminución en el rendimiento por hectárea debido a las altas temperaturas, lo que limita la disponibilidad de producto de primera calidad. Esta escasez temporal ha generado un repunte inmediato en las cotizaciones al mayoreo.</p>
+                
+                <p>A mediano plazo, los analistas prevén que la tendencia comience a estabilizarse a medida que entren en producción los ciclos de cultivo de las zonas del centro y sur del país. Sin embargo, los costos de insumos esenciales, como los fertilizantes basados en urea y los sistemas de riego tecnificado, continúan ejerciendo una presión constante sobre el precio base de salida de las parcelas.</p>
+            </div>
+        </article>
+
+        <section class="data-section">
+            <h3 class="section-title">Monitoreo de Precios e Insumos Corrientes</h3>
+            <div class="table-container">
+                <table class="price-table">
+                    <thead>
+                        <tr>
+                            <th>Producto / Insumo</th>
+                            <th>Precio Anterior</th>
+                            <th>Precio Actual</th>
+                            <th>Tendencia</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Tomate Saladette</td>
+                            <td>$28.20</td>
+                            <td class="price-up">$32.50</td>
+                            <td class="trend-up">▲ Alza</td>
+                        </tr>
+                        <tr>
+                            <td>Cebolla Blanca</td>
+                            <td>$18.00</td>
+                            <td class="price-down">$16.50</td>
+                            <td class="trend-down">▼ Baja</td>
+                        </tr>
+                        <tr>
+                            <td>Chile Serrano</td>
+                            <td>$45.00</td>
+                            <td class="price-up">$48.00</td>
+                            <td class="trend-up">▲ Alza</td>
+                        </tr>
+                        <tr>
+                            <td>Fertilizante (Urea)</td>
+                            <td>$12.50</td>
+                            <td class="price-stable">$12.50</td>
+                            <td class="trend-stable">▶ Estable</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <img src="images/tomate_caja.png" alt="Caja de tomates" class="img-responsive">
+            </div>
+        </section>
+    </main>
+    <script src="java\script.java"></script>
+     <div class="carrusel-contenedor" style="position: relative; max-width: 600px; margin: 0 auto; display: flex; align-items: center; justify-content: center;">
+    <button id="btAnterior" style="position: absolute; left: 15px; z-index: 10; background-color: #1e4d43; color: white; border: none; padding: 10px 15px; border-radius: 5px; cursor: pointer;">←</button>
+    
+    <img id="ImagenPrincipal" class="Imagen-Principal" src="https://fitochem.com/wp-content/uploads/2025/06/Tomates-Mas-Jugosos-y-Suelos-Mas-Saludables-1030x687.jpg" style="width: 100%; height: 400px; object-fit: cover; display: block; border-radius: 8px;">
+    
+    <button id="btSiguiente" style="position: absolute; right: 15px; z-index: 10; background-color: #1e4d43; color: white; border: none; padding: 10px 15px; border-radius: 5px; cursor: pointer;">→</button>
+</div>
+</body>
+</html>
